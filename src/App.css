@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 1rem;
+}
+
+.box-container {
+  padding-bottom: 10rem;
+}
+
+.box {
+  width: 15rem;
+  height: 15rem;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxItem {
+  width: 0.15rem;
+  height: 0.15rem;
+  background-color: burlywood;
+  padding: 2rem;
+  list-style: none;
+  margin: 0.3rem;
+}
+
+button {
+  background-color: chocolate;
+  color: white;
+  padding: 1rem;
+  margin-right: 1.5rem;
+  margin-bottom: 3rem;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  width: 15rem;
+  cursor: pointer;
+}
+
+.example-button {
+  background-color: rgb(86, 1, 245);
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 0.4rem;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
